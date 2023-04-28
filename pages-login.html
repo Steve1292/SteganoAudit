@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Pages / Login - NiceAdmin Bootstrap Template</title>
+  <title>Login - Stegano Audit</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -86,11 +86,13 @@
                     <div class="col-12">
                       <p class="small mb-0">Don't have account? <a href="pages-register.html">Create an account</a></p>
                     </div>
+                    <div class="col-12">
+                      <p class="small mb-0">Forgot password? <a href="pages-forgot.html">Recover Using Image Steganography</a></p>
+                    </div>
                   </div>
 
                 </div>
               </div>
-
 
             </div>
           </div>
@@ -117,7 +119,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
-    function loginUser(){
+   function loginUser(){
    if($("#yourUsername").val()=="" || $("#yourPassword").val()=="" || $("#yourUsername").val()=="" || $("#yourPassword").val()=="" )
    {
      alert("Some Mandatory Fields Unattended");
@@ -133,7 +135,7 @@
           window.location.href = "http://localhost/Stegano/lsb-form.php";
           }
           else{
-            alert("Login Failed");
+            alert("Login Unsuccessful");
           }
          }
      });
